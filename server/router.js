@@ -8,7 +8,7 @@ router
 
 router
   .route('/:id') // passes an id property to req.params
-  .put(controller.update)
-  .delete(controller.delete);
+  // .put(controller.update)
+  // .delete(controller.delete);
 
 module.exports = router;
